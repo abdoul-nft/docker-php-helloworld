@@ -1,0 +1,27 @@
+{
+    "name": "mcstreetguy/composer-parser",
+    "description": "A composer.json and lockfile parser.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/MCStreetguy/ComposerLockParser",
+    "authors": [
+        {
+            "name": "Maximilian Schmidt",
+            "email": "maximilianschmidt404@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MCStreetguy\\ComposerParser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MCStreetguy\\ComposerParser\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "mcstreetguy/tempearly": "^0.4.2"
+    }
+}
